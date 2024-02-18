@@ -14,10 +14,10 @@ public class Auto {
 		int numAsientos = 0;
 		for (int i = 0 ; i < asientos.length; i++)
 		{
-			if (asientos[i] != null)
-			{
-				numAsientos++;
-			}
+				if (asientos[i] != null)
+				{
+						numAsientos++;
+				}
 		}
 		return numAsientos;
 	}
